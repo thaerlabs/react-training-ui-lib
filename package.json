@@ -1,13 +1,17 @@
 {
-  "name": "@tajawalae/the-library",
+  "name": "demo-ui-library",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/",
+  "directories": {
+    "lib": "lib/"
+  },
   "scripts": {
     "build": "babel components --out-dir lib",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "files": ["lib/*"],
   "keywords": [],
   "author": "",
   "license": "ISC",
