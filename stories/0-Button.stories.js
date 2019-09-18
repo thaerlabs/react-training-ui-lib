@@ -8,6 +8,6 @@ export default {
 
 export const emoji = () => (
   <Button onClick={action('clicked')}>
-    😀 😎 👍 💯
+    Some tomato text
   </Button>
 );
