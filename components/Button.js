@@ -5,8 +5,8 @@ import PropTypes from 'prop-types'
 const NiceButton = styled.button`
   background: transparent;
   border-radius: 3px;
-  border: 2px solid tomato;
-  color: tomato;
+  border: 2px solid ${props => props.theme.primary};
+  color: ${props => props.theme.secondary};
   margin: 0 1em;
   padding: 0.25em 1em;
 `
