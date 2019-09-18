@@ -10,7 +10,7 @@ function Button({ children, onClick }) {
 }
 
 Button.propTypes = {
-  onClick
+  onClick: PropTypes.func
 }
 
 export default Button
